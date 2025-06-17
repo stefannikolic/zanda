@@ -7,7 +7,6 @@ This is an automated test suite developed using **Playwright** for testing key e
 ## 🚀 Tech Stack
 
 - **Test Runner**: [Playwright](https://playwright.dev/)
-- **Language**: JavaScript / TypeScript (based on your setup)
 - **Node Version**: v24.2.0
 - **Package Manager**: Yarn (recommended)
 
