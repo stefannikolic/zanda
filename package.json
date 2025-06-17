@@ -1,0 +1,22 @@
+{
+  "name": "zanda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "end2end-headed": "npx playwright test --project=chromium --headed --grep @end2end",
+    "end2end-headless": "npx playwright test --project=chromium --grep @end2end",
+    "isolated-headed": "npx playwright test --project=chromium --headed --grep @isolated",
+    "isolated-headless": "npx playwright test --project=chromium --grep @isolated"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
